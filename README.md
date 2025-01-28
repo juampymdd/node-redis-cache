@@ -8,8 +8,8 @@ This repository demonstrates how to use Redis as a caching mechanism in a Node.j
 
 1. **Clone the Repository**  
    Run the following commands to clone the repository and navigate to the folder:  
-   `git clone <repository-url>`  
-   `cd <repository-folder>`
+   `git clone git@github.com:juampymdd/node-redis-cache.git`  
+   `cd node-redis-cache`
 
 2. **Install Dependencies**  
    Install the required dependencies by running:  
