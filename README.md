@@ -33,11 +33,13 @@ This repository demonstrates how to use Redis as a caching mechanism in a Node.j
 
 
    - **GET Request**: get all characters.
+     
      Open a browser and navigate to:  
      ```http://localhost:3000/characters```  
      You should see the response from the server.
 
 - **GET Request**:  get a specific character.
+    
     Open a browser and navigate to:  
     ```http://localhost:3000/characters/1```  
     You should see the response from the server.
