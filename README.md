@@ -25,6 +25,23 @@ This repository demonstrates how to use Redis as a caching mechanism in a Node.j
    - **Normal Mode**: `node index.js`  
    - **Watch Mode**: `node --watch index.js`
 
+5. **Test the Application**
+
+>**First:** you run the application, the data will be fetched from the API and stored in Redis.
+
+>**Second:** you run the application, the data will be fetched from Redis.
+
+   - **GET Request**: get all characters.
+     Open a browser and navigate to:  
+     `http://localhost:3000/characters`  
+     You should see the response from the server.
+
+
+    - **GET Request**:  get a specific character.
+    Open a browser and navigate to:  
+    `http://localhost:3000/characters/1`  
+    You should see the response from the server.
+
 ---
 
 ### Additional Notes
