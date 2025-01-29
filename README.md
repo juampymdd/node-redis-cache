@@ -27,9 +27,9 @@ This repository demonstrates how to use Redis as a caching mechanism in a Node.j
 
 5. **Test the Application**
 
->**First:** you run the application, the data will be fetched from the API and stored in Redis.
+>**First:** When you query the endpoint, the data will be fetched from the API and stored in Redis.
 
->**Second:** you run the application, the data will be fetched from Redis.
+>**Second:** you query the endpoint again, the data will be fetched from RedisWhen you query the endpoint again, the data will be fetched from Redis.
 
 
    - **GET Request**: get all characters.
